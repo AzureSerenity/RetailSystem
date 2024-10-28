@@ -15,6 +15,12 @@ import sach3 from "./assets/sach-3.jpg";
 import sach4 from "./assets/sach-4.jpg";
 import sach5 from "./assets/sach-5.jpg";
 import sach6 from "./assets/sach-6.jpg";
+import sach7 from "./assets/sach-7.jpg";
+import sach8 from "./assets/sach-8.jpg";
+import sach9 from "./assets/sach-9.jpg";
+import sach10 from "./assets/sach-10.jpg";
+import sach11 from "./assets/sach-11.jpg";
+import sach12 from "./assets/sach-12.jpg";
 import logoHutech from "./assets/logo-hutech.webp";
 import paidImg from "./assets/paid.png";
 import Marquee from "react-fast-marquee";
@@ -80,6 +86,54 @@ const bookList = [
     discount: 84000,
     author: "Lee Pyeong",
     image: sach6,
+  },
+  {
+    id: 7,
+    name: "Lập Trình Windows Form",
+    price: 399000,
+    discount: 184000,
+    author: "STK",
+    image: sach7,
+  },
+  {
+    id: 8,
+    name: "Hành Trang Lập Trình",
+    price: 87000,
+    discount: 44000,
+    author: "Lee Pyeong",
+    image: sach8,
+  },
+  {
+    id: 9,
+    name: "Các Giải Pháp Lập Trình",
+    price: 129000,
+    discount: 85000,
+    author: "Nguyễn Ngọc Bình Phương",
+    image: sach9,
+  },
+  {
+    id: 10,
+    name: "Learn C# In One Day",
+    price: 99000,
+    discount: 84000,
+    author: "Jamie Chan",
+    image: sach10,
+  },
+  {
+    id: 11,
+    name: "Đi Tìm Lẽ Sống",
+    price: 12000,
+    discount: 96000,
+    author: "Viktor E-FrankL",
+    image: sach11,
+  },
+  {
+    id: 12,
+    name: "Hạt Giống Tâm Hồn",
+    price: 79000,
+    discount: 64000,
+    author: "Nhiều Tác Giả",
+    image: sach12,
   },
 ];
 
@@ -364,7 +418,7 @@ function App() {
       <div className="mb-10">
         <Marquee speed={100}>
           <span className="text-2xl italic">
-            Chào mừng lễ quốc tế phụ nữ 20/10 giảm giá các loại sách từ{" "}
+            Chào mừng ngày nhà giáo Việt Nam 20-11 giảm giá các loại sách từ{" "}
             <span className="text-red-500">10% - 50%</span>, số lượng có hạn
           </span>
         </Marquee>
